@@ -9,6 +9,7 @@
 <html>
   <head>
     <title>$Title$</title>
+    <script type="text/javascript" src="jQuery/jquery-3.1.1.js"></script>
   </head>
   <body>
   <a href="modeler.html?modelId=1547">编辑1547号流程</a>

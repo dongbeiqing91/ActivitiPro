@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 自动扫描spring注解，排除springmvc已扫描的Controller注解 -->
-    <context:component-scan base-package="org.activiti.conf, org.activiti.rest.editor, org.activiti.rest.service">
+    <context:component-scan base-package="org.activiti.conf, org.activiti.rest.editor, org.activiti.rest.service,com.clic.controller">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
